@@ -1,0 +1,236 @@
+.product-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.mobile-header{
+    display: none;
+}
+.manuka-image{
+    display: none;
+}
+.mobile-view{
+    display: none;
+    height: 100vh;
+}
+@media (max-width: 768px) {
+    .navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.mobile-header{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.manuka-image{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.mobile-view{
+    display: block; 
+    height: 100vh;
+    justify-content: center;
+}
+.certification-img{
+        height: 80px;
+        width: 80px;
+        margin-left: 40px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+.bar{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+.payment-section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: lightgrey;
+    height: 120px;
+    width: 450px;
+    border-radius: 20px;
+    justify-content: space-around;
+    }
+    .search-icon{
+        height: 20px;
+        width: 20px;
+        margin-top: 20px;
+        cursor: pointer;
+    }
+ .cart-bag{
+        height: 20px;
+        width: 20px;
+        margin-top: 20px;
+        cursor: pointer;
+    }
+    .menu-bar{
+        height: 20px;
+        margin-top: 20px;
+        margin-right: 45px;
+        cursor: pointer;
+    }
+    .logo{
+    height: 60px;
+    width: 100px;
+}
+}
+.navbar-button{
+     color: black;
+}
+.info-button{
+    border-radius: 10px;
+    color: grey;
+    background-color: lightgrey;
+}
+.Desk-top-view{
+    display: none;
+}
+
+@media (min-width: 769px) {
+    .Desk-top-view{
+        display: flex;
+        flex-direction: column;
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+    .bar{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .search-icon{
+        height: 20px;
+        width: 20px;
+        margin-top: 20px;
+        cursor: pointer;
+    }
+    .cart-bag{
+        height: 20px;
+        width: 20px;
+        margin-top: 20px;
+        cursor: pointer;
+    }
+    .main-section{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .left-section{
+        display: flex;
+        flex-direction: column;
+    }
+    .right-section{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .Review-section{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .certification{
+        display: flex;
+        flex-direction: row;
+        height: 100px;
+    }
+    .payment-section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: lightgrey;
+    height: 120px;
+    width: 700px;
+    border-radius: 20px;
+    justify-content: space-around;
+    }
+    .certification-img{
+        height: 80px;
+        width: 80px;
+        margin-left: 80px;
+    }
+    .size-section{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        width: 400px;
+        flex-wrap: wrap;
+    }
+    .logo{
+    height: 80px;
+    width: 150px;
+}   
+}
+.header-button{
+        height: 40px;
+        width: 200px;
+        border-radius: 20px;
+        font-size: 13px;
+        background-color: white;
+        border: 1px solid black;
+        margin-top: 10px;
+        cursor: pointer;
+}
+
+.images-section{
+    display: flex;
+    flex-wrap: wrap;
+}
+.image-section{
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+}
+
+.payment-button{
+    background-color: #f3a411;
+    border-radius: 40px;
+    border-width: 0;
+    height: 70px;
+    width: 200px;
+    color: white;
+}
+.add-to-cart-section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 300px;
+}
+.quantity-button{
+    background-color: #f7b945;
+    border-radius: 20px;
+    height: 40px;
+    width: 200px;
+    border-width: 0;
+}
+.addtocart{
+    width: 700px;
+    height: 40px;
+    border-radius: 20px;
+    border-width: 0;
+    background-color: black;
+    color: #ffffff;
+    font-size: 20px;
+}
+.quantity-image{
+        height: 100px;
+    }
+.umf-button{
+    background-color: lightgrey;
+    border-radius: 20px;
+    color: gray;
+    border-width: 0; 
+    height: 30px;
+    width: 150px;
+}

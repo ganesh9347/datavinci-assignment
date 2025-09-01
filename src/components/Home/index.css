@@ -1,0 +1,15 @@
+.home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.home-button{
+    background-color: lightskyblue;
+    border-width: 0;
+    border-radius: 6px;
+    color: white;
+    font-size: 20px;
+    margin: 20px;
+}
