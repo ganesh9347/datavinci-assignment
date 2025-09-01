@@ -112,7 +112,7 @@ const Checkboxes = ({data, checked, setChecked}) => {
 }
 
 const Nestedcheckbox = () => {
-    const [checked,setChecked] = useState({1: true, 11: true});
+    const [checked,setChecked] = useState({});
     return (
         <div>
            <Checkboxes checked={checked} setChecked={setChecked} data={checkboxesData} /> 
